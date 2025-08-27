@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>General Bus Pass Application</title>
+</head>
+<body>
+
+  <center>
+    <img src="./tsrtc.png" alt="TSRTC Logo" width="100%" height="200">
+    <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h2>GENERAL BUS PASS APPLICATION</h2>
+  </center>
+
+   <fieldset>
+            <legend>Application details</legend>
+  <form action="/submit-application" method="post">
+    <table>
+      <tr>
+        <td>Name </td>
+        <td><input type="text" name="name" maxlength="20" required></td>
+        <td>Father's / Guardian's Name *</td>
+        <td><input type="text" name="father_name"></td>
+      </tr>
+      <tr>
+        <td>Date of birth <br>(dd/mm/yyyy)</td>
+        <td><input type="date" name="dob" required></td>
+        <td>Gender </td>
+        <td>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Aadhaar No:</td>
+        <td><input type="text" name="aadhaar_no" required></td>
+      </tr>
+      <tr>
+        <td>WhatsApp No *</td>
+        <td><input type="tel" name="whatsapp_no" required></td>
+        <td>E-mail Id *</td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td>Photo *</td>
+        <td><input type="file" name="photo"></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+</fieldset>
+
+     <fieldset>
+            <legend>Address details</legend>
+    <table>
+      <tr>
+        <td>Applicant's Address *</td>
+        <td><textarea name="address" rows="4" cols="50" maxlength="200" required></textarea></td>
+        <td>District *</td>
+        <td>
+          <select name="district">
+            <option value="HYDERABAD">HYDERABAD</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Mandal </td>
+        <td>
+          <select name="mandal">
+            <option value="HYDERABAD">HYDERABAD</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+        <td>Village </td>
+        <td>
+          <select name="village">
+            <option value="HYDERABAD">HYDERABAD</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Pincode </td>
+        <td><input type="text" name="pincode" required></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    </fieldset>
+ <fieldset>
+            <legend>Pass type</legend>
+    <table>
+      <tr>
+        <td>City *</td>
+        <td>
+          <select name="city">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Pass Type *</td>
+        <td>
+          <select name="pass_type">
+            <option value="">---Select---</option>
+            <option value="general">General Pass</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+
+    </fieldset>
+
+    <fieldset>
+            <legend>Mode of Payment&Payment process</legend>
+    <table>
+      <tr>
+        <td>Payment Mode required</td>
+        <td>
+          <select name="payment_mode">
+            <option value="">Select Payment Mode</option>
+            <option value="online">Online</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Pass Delivery Mode required</td>
+        <td>
+          <select name="delivery_mode">
+            <option value="">Select Pass Delivery Mode</option>
+            <option value="online">Online</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Center at which you want to Collect Pass *</td>
+        <td>
+          <select name="collection_center">
+            <option value="">---Select---</option>
+            <option value="center1">Center 1</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    </fieldset>
+    <br>
+    <img src="./cap.png" alt="Captcha" style="width:100px;height:40px;">
+    <input type="text" name="captcha_input">
+    <br>
+    <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
