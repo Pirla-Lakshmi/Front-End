@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Questions and Answers</title>
+</head>
+<body>
+
+<ol>
+  <li>
+    <h3>What is html?</h3>
+    <ul>
+      <p>HTML, which stands for HyperText Markup Language, is the foundational language for creating web pages. It is a markup language, not a programming language, that uses a system of "tags" to structure the content of a document. These tags tell a web browser how to display text, images, and other multimedia on a webpage. Essentially, HTML provides the "skeleton" or the structure of a website.</p>
+    </ul>
+  </li>
+  <li>
+    <h3>What are the differences between html and Xhtml?</h3>
+    <ul>
+        <h4>HTML:</h4>
+        <p>HTML (HyperText Markup Language) is a markup language for structuring content on the web. It uses a flexible syntax where some tags and attributes are not strictly required to be closed or quoted</p>
+    <ul>
+      <li><strong>Syntax:</strong> Less strict and more forgiving.</li>
+      <li><strong>Tag Closure:</strong> Does not always require self-closing tags to be explicitly closed (e.g., &lt;br&gt;).</li>
+      <li><strong>Case-sensitivity:</strong> Not case-sensitive (e.g., &lt;p&gt; and &lt;P&gt; are the same).</li>
+      <li><strong>Attribute Quotes:</strong> Does not always require attribute values to be enclosed in quotes.</li>
+    </ul>
+    <h4>XHTML:</h4>
+ <p>XHTML (eXtensible HyperText Markup Language) is a stricter, XML-based version of HTML. It combines the functionality of HTML with the strict syntax rules of XML. This means that all tags must be properly nested, closed, and in lowercase, and all attribute values must be quoted. Its main goal was to create well-formed documents that could be processed by both web browsers and XML parsers.</p>
+    <ul>
+      <li><strong>Syntax:</strong> Very strict, following XML rules.</li>
+      <li><strong>Tag Closure:</strong> Requires all tags to be properly closed (e.g., &lt;br /&gt;).</li>
+      <li><strong>Case-sensitivity:</strong> Case-sensitive; all tags must be in lowercase.</li>
+      <li><strong>Attribute Quotes:</strong> Requires all attribute values to be enclosed in quotes.</li>
+    </ul>
+    </ul>
+  </li>
+  <li>
+    <h3>What is tag?</h3>
+    <ul>
+      <p> A "tag" is a piece of markup language used to create an HTML element. Tags are enclosed in angle brackets (< >) and typically come in pairs: an opening tag and a closing tag. The closing tag is identical to the opening tag, but it includes a forward slash (/).</p>
+    </ul>
+  </li>
+  <li>
+    <h3>What are the differences between Html4 and Html5?</h3>
+    <ul>
+      <h4>HTML4:</h4>
+      <p>HTML4 is the previous major version of HTML, published in 1997. It was the standard for web development for many years. It relied heavily on other technologies like Flash for multimedia content and used tags like <div> and <span> for almost all content structuring, which could make the code less readable. It had a long and complex doctype declaration.</p>  
+    <ul>
+       <li><strong>Multimedia:</strong> Required third-party plugins like Adobe Flash for audio and video.</li>
+      <li><strong>Semantics:</strong> Used generic tags (div, span) for structuring, which was less descriptive.</li>
+      <li><strong>Doctype:</strong> Had a long and complex doctype declaration</li>
+      <li><strong>APIs:</strong>Limited support for new web APIs like Geolocation and client-side storage.</li>
+    </ul>
+    <h4>HTML5:</h4>
+    <p>HTML5 is the latest version of HTML. It introduced numerous new features, including native support for multimedia with audio and video tags, removing the need for third-party plugins. It also added semantic elements like header, footer, nav, and article to provide a better structure for documents. HTML5 also has a simpler doctype declaration.</p>
+    <ul>
+    <li><strong>Multimedia:</strong> Includes built-in audio and video tags for native multimedia support.</li>
+      <li><strong>Semantics:</strong>Introduced new semantic tags (header, footer) for better document structure.</li>
+      <li><strong>Doctype:</strong> Has a very simple and short doctype declaration (!DOCTYPE html).</li>
+      <li><strong>APIs:</strong>Supports a wide range of new APIs for features like geolocation, drag-and-drop, and offline storage.</li>
+    </ul>
+    </ul>
+  </li>
+  <li>
+    <h3>what are Lists.</h3>
+    <p>
+        In HTML, a list is a way to group a set of related items, making the content well-structured and easy to read. Lists are a fundamental part of web development, often used for things like navigation menus, product features, and glossaries.
+    </p>
+    <p>There are three main types of lists in HTML:</p>
+
+    <ul>
+        <li>
+            <h4>Unordered Lists:</h4>
+            <p>These are used for items where the order does not matter. Each item in an unordered list is typically marked with a bullet point.</p>
+        </li>
+        <li>
+            <h4>Ordered Lists:</h4>
+            <p>These are used for items where the order is important, such as steps in a recipe or a ranked list. Each item is typically marked with numbers or letters.</p>
+        </li>
+        <li>
+            <h4>Description Lists:</h4>
+            <p>These lists are used to define terms and their corresponding descriptions. They are often used for glossaries or a list of questions and answers.</p>
+        </li>
+    </ul>
+  </li>
+  <li>
+    <h3>What are elements?</h3>
+    <p>An HTML element is a fundamental building block of a web page. It is a complete component that defines the structure and content of a part of the document.</p>
+    <ol>
+        <li><strong>An Opening tag:</strong> This marks the beginning of the element (e.g., h1).</li>
+      <li><strong>Content:</strong>The information that goes inside the element, which can be text, other elements, or a combination of both (e.g., "Hello, World!").</li>
+      <li><strong>A Closing tag:</strong> This marks the end of the element (e.g., /h1).</li>
+      <p>Some elements, known as "empty" or "void" elements, don't have any content and therefore don't have a closing tag. Examples include the img element for images and the br element for line breaks.</p>
+    </ol>
+  <li>
+    <h3>What are differences between Xml and HTML?</h3>
+    <ul>
+      <h4>XML:</h4>
+      <p>XML (eXtensible Markup Language) is a markup language for storing and transporting data. It allows you to create your own custom tags, making it highly flexible for describing any kind of data. Its main purpose is to make data understandable to different applications.</p>
+      <ul>
+        <li><strong>Purpose:</strong> To display content for a user.</li>
+      <li><strong>Tags:</strong>Uses a fixed set of predefined tags.</li>
+      <li><strong>Syntax:</strong> More lenient with errors,as browsers can often correct them.</li>
+      </ul>
+      <h4>HTML:</h4>
+      <p>​HTML (HyperText Markup Language) is a markup language for structuring content on the web. It uses predefined tags like p for paragraphs and h1 for headings to tell a web browser how to display content. Its main purpose is to present information to a user.</p>
+         <li><strong>Purpose:</strong> To store and transport data.</li>
+      <li><strong>Tags:</strong>Allows you define your own custom tags.</li>
+      <li><strong>Syntax:</strong>Very strict;all tags must be properly nested and closed.</li>
+    </ul>
+  </li>
+  <li>
+    <h3>What are attributes?</h3>
+    <p>HTML attributes are used to provide additional information about an HTML element. They are always placed within the opening tag of an element and come in name="value" pairs.</p>
+    <p>Some of the attribues are:</p>
+     <ol>
+         <li><strong>class:</strong>Specifies one or more class names for an element.</li>
+      <li><strong>id:</strong>provides a unique identifier of an element.</li>
+      <li><strong>title:</strong>Displayed when the user hovers mouse over it.</li>
+       <li><strong>href:</strong>Specifies the URL that the hyperlink points to.</li>
+      <li><strong>target:</strong>Specifies where to open the linked document.</li>
+      <li><strong>src:</strong> Specifies the path of the image file.</li>
+       <li><strong>alt:</strong> Provides alternate text for the imafe if not displayed.</li>
+      <li><strong>width and height:</strong>Specify the width and height of image in pixels.</li>
+     </ol>
+  </li>
+</ol>
+</body>
+</html>
