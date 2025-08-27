@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form-3</title>
+</head>
+<body>
+    <center>
+        <h1>Registration Form</h1>
+    </center>
+    <table cellspacing="30" align="center">
+        <tr>
+            <td>
+                 <label for="name">Name:</label>
+            </td>
+            <td>
+                 <input type="text" placeholder="Enter First Name" id="name" name="First Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Last Name">Last Name:</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Enter Last Name" id="Last Name" name="Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Email">Email:</label>
+            </td>
+            <td>
+                <input type="email" placeholder="Enter Email Address" id="Email" name="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                 <label for="Password">Password:</label>
+            </td>
+            <td>
+                 <input type="password" id="Password" name="Password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Gender:</label>
+            </td>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male"> 
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female"> 
+                <label for="others">others</label>
+                <input type="radio" id="others" name="gender" value="others">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Age">Age:</label>
+            </td>
+            <td>
+                <input type="number" id="Age" name="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Preferences">Preferences:</label>
+            </td>
+            <td>
+                <label for="Acrylic Painting">Acrylic Painting</label>
+                <input type="radio" id="Acrylic Painting" name="Preferences">
+                <label for="Oil Painting">Oil Painting</label>
+                <input type="radio" id="Oil Painting" name="Preferences">
+                <label for="Water color Painting">Water color Painting</label>
+                <input type="radio" id="Water color Painting" name="Preferences">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Occupation">Occupation:</label>
+            </td>
+            <td>
+                <select name="Occupation" id="Occupation">
+                    <option value="">Student</option>
+                    <option value="">Employee</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Bio">Bio</label>
+            </td>
+            <td>
+                <textarea name="Bio" id="Bio" placeholder="Share few line about yourself...."></textarea>
+            </td>
+        </tr>
+    </table>
+    <center>
+        <button>RESET</button>
+        <button>SUBMIT</button>
+    </center>
+</body>
+</html>
